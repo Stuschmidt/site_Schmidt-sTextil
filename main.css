@@ -200,3 +200,54 @@ form button {
     }
 
 }
+
+@media screen and (max-width:415px) {
+    section .container {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .empresa {
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 16px;
+    }
+
+    .container {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 8px;}
+
+    .contact-methods {
+        display: grid;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    section h3 {
+        margin-top: 30px;
+    }
+
+    .logo  {
+        height: 120px;
+        width: auto;
+    }
+
+    header nav li {
+        display: inline;
+        margin-left: 8px;
+        font-size: 10px;
+    }
+
+}
